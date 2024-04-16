@@ -1,2 +1,2 @@
 # Minitalk
-nothing
+minitalk is a server/client system utilizing UNIX signals for communication. The server displays its PID and deciphers incoming signals into characters, while the client encrypts messages and sends signals (SIGUSR1/SIGUSR2) to the server's PID. This project enhanced my understanding of UNIX signal handling, inter-process communication, and low-level system programming, reinforcing my skills as a developer.
